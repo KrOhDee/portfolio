@@ -1,0 +1,51 @@
+input:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px pink;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+.self-img {
+  width: 370px;
+  height: auto;
+}
+
+.fw-bold {
+  font-family: monospace, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-logo {
+  animation: rotate 4s linear infinite;
+  margin-left: 45px;
+}
+
+.project-desc-text {
+  font-size: 17px;
+}
+
+.card-subtitle {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  .project-row {
+    margin-left: 55px;
+  }
+}
