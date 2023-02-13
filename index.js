@@ -16,6 +16,7 @@ const button = document.querySelector('.form-check-input');
 const theme = document.querySelector('.theme');
 const card = document.querySelector('.c-switch');
 const desc = document.querySelectorAll('.c-switch2');
+const image = document.querySelector('.self-img');
 
 let toggle = false;
 

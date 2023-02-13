@@ -14,7 +14,8 @@ a {
 
 .self-img {
   width: 370px;
-  height: auto;
+  max-height: 340px;
+  box-shadow: rgb(248, 75, 75) 2px 2px 5px;
 }
 
 .fw-bold {
