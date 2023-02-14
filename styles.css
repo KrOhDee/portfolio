@@ -51,7 +51,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .project-row {
     margin-left: 55px;
   }
