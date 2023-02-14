@@ -45,6 +45,14 @@ a {
   font-size: 20px;
 }
 
+/* Apply the following styles only on screens smaller than 768px */
+@media (max-width: 767.98px) {
+  .contact-info {
+    /* Reduce the font size to fit the text within the available space */
+    font-size: 0.875rem;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   .project-row {
     margin-left: 55px;
