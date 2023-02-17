@@ -23,15 +23,6 @@ a {
   font-size: 18px;
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .react-logo {
   animation: rotate 4s linear infinite;
   margin-left: 45px;
@@ -54,5 +45,14 @@ a {
 @media (min-width: 800px) {
   .project-row {
     margin-left: 55px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
