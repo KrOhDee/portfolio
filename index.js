@@ -23,23 +23,23 @@ button.addEventListener('click', function () {
   toggle = !toggle;
   desc.forEach((des) => {
     if (toggle) {
-      theme.href = './bootstrap.min.css';
-      des.classList.remove('border-danger');
-      des.classList.add('border-warning');
-    } else {
       theme.href = './bootstrap.journalmin.css';
       des.classList.remove('border-warning');
       des.classList.add('border-danger');
+    } else {
+      theme.href = './bootstrap.min.css';
+      des.classList.remove('border-danger');
+      des.classList.add('border-warning');
     }
   });
 
   if (toggle) {
-    theme.href = './bootstrap.min.css';
-    card.classList.remove('bg-primary');
-    card.classList.add('bg-info');
-  } else {
     theme.href = './bootstrap.journalmin.css';
     card.classList.remove('bg-info');
     card.classList.add('bg-primary');
+  } else {
+    theme.href = './bootstrap.min.css';
+    card.classList.remove('bg-primary');
+    card.classList.add('bg-info');
   }
 });
